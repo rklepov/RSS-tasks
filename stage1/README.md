@@ -52,30 +52,30 @@
 - [Проект "Shelter"](stream1/shelter)
 
 ### Неделя #4 (12 апреля 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"]()
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#1"](stream1/shelter#неделя-1)
 - [Модуль: "Вёрстка адаптивного макета"](modules/responsive-web-design/)
 - [Модуль: "Медиазапросы"](modules/media-queries/)
-- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](../tasks/markups/level-2/shelter)
+- [Проект: "Shelter. Part#2. Адаптивная вёрстка"](stream1/shelter#неделя-2)
 
 ### Неделя #5 (19 апреля 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"]()
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. Part#2"](stream1/shelter#неделя-2)
 - [Модуль: "HTML Forms & Validation"](modules/html-form/)
 - [Модуль: "DOM API"](modules/dom-api/)
 - [Модуль: "Events"](modules/events/)
-- [Проект "Shelter. DOM & Browser API"](../tasks/markups/level-2/shelter)
+- [Проект "Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
 
 ### Неделя #6 (26 апреля 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"]()
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Shelter. DOM & Browser API"](stream1/shelter#неделя-3)
 - [Модуль: "Chrome DevTools"](modules/chrome-devtools/)
 - [Модуль "Алгоритмы и Структуры Данных"](modules/data-structures/)
 
 ### Неделя #7 (3 мая 2022)
 - [Модуль: "Modules in JS"](modules/modules-in-js/)
 - [Модуль: "Webpack"](modules/webpack/)
-- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Проект: Виртуальная клавиатура](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 
 ### Неделя #8 (10 мая 2022)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-ru.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Виртуальная клавиатура"](../tasks/virtual-keyboard/virtual-keyboard-en.md)
 - [Проект "CSS Meme Slider"](../tasks/css-mem-slider) 
 - [Модуль: "Client - Server interaction overview"](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/modules/client-server)
 
