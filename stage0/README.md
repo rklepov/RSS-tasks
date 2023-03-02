@@ -13,12 +13,12 @@
 - [Модуль "Chrome Dev Tools, VS Code, Terminal"](modules/basic-tools/)
 - Проект ["CV"](../tasks/cv/cv.md). 
     - ["CV#1. Markdown & Git"](../tasks/cv/git-markdown.md)
-    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
 
 ### Неделя #2
 - [Модуль "Основы HTML"](modules/html-basics/)
 - [Модуль "Основы CSS"](modules/css-basics/)
 - Проект ["CV"](../tasks/cv/cv.md). 
+    - ["CV#2. HTML, CSS & Git Basics"](../tasks/cv/html-css-git.md)
     - ["CV#3. CV. Cross-Check"](../tasks/cv/cv-stage0.md)
 
 ### Неделя #3
@@ -34,7 +34,7 @@
 
 ### Неделя #6
 - [Модуль "Закрепление основ JavaScript. Функции"](modules/js-functions/)
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/travel/travel-part1.md)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Plants#1"](../tasks/plants/plants-part1.md)
 - Проект ["Plants"](../tasks/plants/plants.md)
     - ["Plants#2. Адаптивная вёрстка"](../tasks/plants/plants-part2.md)
 
@@ -63,7 +63,7 @@
 - [Модуль "Алгоритмы и Структуры Данных. Часть 2"](modules/data-structures-part-2/)
 
 ### Неделя #13
-- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://irinainina.github.io/rss-tasks/#/stage0/momentum/momentum)
+- [Кросс-чек проверка](https://docs.rs.school/#/cross-check-flow) проекта ["Momentum"](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md)
 - Получение сертификата 
 
 ## Сертификат 

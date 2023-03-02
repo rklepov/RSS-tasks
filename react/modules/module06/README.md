@@ -1,6 +1,6 @@
 # Week 6
 
-## React. Redux
+## React. SSR/SSG
 
 
 !! Task should be implemented in the school’s private repository !!
@@ -9,21 +9,26 @@ It should be based on the previous task.
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. Rewrite the state management to Redux using [RTK](https://redux-toolkit.js.org/)
-3. Api requests should be moved to thunks
-4. Make a conclusion: what's better - custom state management with Context or Redux?
+2. Move your application to the server and enable server side rendering.
+3. Hydrate your application on FE side.
+4. Adopt Redux for SSR.
+5. Add e2e tests for your application via cypress.
 
 ### Score
-
-The task will be checked by the mentor during the first 6 weeks. Create a Pull Request to the branch of the previous task, for mentor's checking (**DO NOT MERGE**).
-
-
-1. Api calls from Thunk - **3 points**
-2. Redux State Management - **12 points**
-
+The task will be checked during cross-check and cross-code-review.  
+Student can get 15 points if the following requirements are met:
+1. Eslint should not show any errors or warnings. 
+2. All the functionality should work.
+3. No console errors in browser.
+4. E2E test coverage should be not less than 80%.
 
 If at least one of the requirements is not completed, then the task is evaluated as **0 points**.
 
+The score might be less, if:
+1. Part of functionality doesn't work.
+2. renderToPipeableStream method haven't been used.
+2. Redux doesn't work.
+3. E2E test coverage is below than 80%.
 ### Repository requirements
 
 - the task should be done in the school's **private repository** [How to work with a private repository](https://docs.rs.school/#/private-repository?id=Как-работать-с-приватным-репозиторием) [RU]
@@ -33,8 +38,18 @@ If at least one of the requirements is not completed, then the task is evaluated
 
 ### Theory
 
-Redux:
-- Redux Essentials, [Part 1: Redux Overview and Concepts](https://redux.js.org/tutorials/essentials/part-1-overview-concepts)
-- [Getting Started with Redux](https://redux.js.org/introduction/getting-started)
-- React. Redux.Rolling Scopes School - [video](https://www.youtube.com/watch?v=bEHW-Mkdchc&t=1662s)
- 
+SSR:
+ - [Rendering types](https://dexlock.com/blog/frontend-rendering-ssg-vs-ssr-vs-csr-vs-isr/)
+ - [React.renderToPipeableStream](https://beta.reactjs.org/reference/react-dom/server/renderToPipeableStream)
+ - [React Hydration](https://beta.reactjs.org/reference/react-dom/client/hydrateRoot#hydrating-an-entire-document)
+ - [Redux SSR](https://redux.js.org/usage/server-rendering)
+ - [React SSR with Express.js](https://dev.to/juhanakristian/basics-of-react-server-side-rendering-with-expressjs-phd)
+
+Cypress:
+- [What is e2e testing?](https://circleci.com/blog/what-is-end-to-end-testing/)
+- [How to write e2e tests](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test)
+
+Extra:
+ - [NEXT.js](https://nextjs.org/)
+ - [Remix](https://remix.run/)
+ - [Gatsby.js](https://www.gatsbyjs.com/why-gatsby)
