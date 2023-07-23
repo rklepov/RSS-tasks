@@ -2,13 +2,11 @@
 
 ## React. API
 
-
-!! Task should be implemented in the school’s private repository !!
-It should be based on the previous task.
+Task should be based on the previous task.
 
 ### What should be done:
 
-1. Create a separate branch for this task.
+1. Create a separate branch for this task from the previous branch task.
 2. Choose an API.
    There are several recommended APIs. But you may choose any other API that you prefer if it supports search, pagination and sorting.
    - https://www.flickr.com/services/api/flickr.photos.search.html
@@ -23,11 +21,13 @@ It should be based on the previous task.
 3. Rewrite the search page, and split it into 2 logical parts:
    - **Search bar.** Enter text -> Press Enter -> Send the request to API with the searching parameters -> the list of results is updating
    - **The result list of searching**: display the data that the API query returned using Cards.
-4. A customer decided to change requirement. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
-5. Creat a download indicator ( a component with animation, or at least with the string - ‘Downloading’). You should place this indicator with your own sense of beauty.
-
-All the logical parts must be in separated components.
-**User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**
+4. A customer decided to change the requirement about cards. Now every element of the list has to show a small piece of information. After the click on the element we have to show all the  available information about the element in the modal window. The modal window should be closed by clicking on the cross button in the upper right corner or by clicking on a page outside the modal window. When we open a modal window the page should be covered with overlay.
+5. Create a progress indicator (a component with animation, or at least with the text - ‘Progressing...’) which will be shown when request is pending. You should place this indicator with your own sense of beauty.
+  
+     All the logical parts must be in separated components.
+  
+     **User-friendly interface with the downloading indicator and with notification messages in a case if something goes wrong or some information cannot be found is warmly welcome.**
+  
 6. Add tests. All the api-calls should be mocked in the tests.
 
 ### Questions
@@ -71,8 +71,8 @@ The score might be less, if:
 If there are direct DOM manipulations – **0 points**.
 ### Repository requirements
 
-* the task should be done in the **private student's repository** 
-* in private repository create branch with the name of the task from `main` branch and work in this (dev) created branch
+* the task should be done in **your personal private repository** 
+* in the repository create a branch from the **previous task** branch with the name of the task and work in the created branch
 * the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
 * after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
 * after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 

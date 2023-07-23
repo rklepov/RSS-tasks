@@ -2,11 +2,11 @@
 This course is aimed to the students of the RS School which passed RS School stage #2 and for the new students, which have experience with :
 - JavaScript
 - TypeScript
-- Git, GitHub (clone, add, commit, push, pull, merge, rebase, работа с Pull Request)
+- Git, GitHub (clone, add, commit, push, pull, merge, rebase, pull request flow)
 - NPM, Webpack
 - CSS3 / HTML5
 - Chrome DevTools, Figma
-- Understanding of the REST API
+- Understanding of how to interact with apis (general understanding of REST and GraphQL)
 ATTENTION! Mentors for this course will be first distributed for the graduates of the RS School stage #2.
 
 ### Course duration
@@ -20,10 +20,10 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 [React. Forms](modules/module02)
 
 ### Week #3 (27th of March, 2023)
-[React. API](modules/module03)
+[React. Hooks](modules/module03)
 
 ### Week #4 (3rd of April, 2023)
-[React. Hooks](modules/module04)
+[React. API](modules/module04)
 
 ### Week #5 (10th of April, 2023)
 [React. Redux](modules/module05)
@@ -49,6 +49,7 @@ ATTENTION! Mentors for this course will be first distributed for the graduates o
 
 ### Week #11 (22nd of May, 2023)
 Cross-check review: - [GraphiQL](modules/graphiql.md)
+- At the end of the course, if you have a mentor, please ask them to write feedback about you. The mentor can do this by opening the RS APP, navigating to the 'My Students' page, and clicking the 'Give feedback' button next to your name.
 
 
 ## Lectors

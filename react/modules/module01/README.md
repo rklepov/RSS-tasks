@@ -5,9 +5,9 @@
 ### What should be done:
 
 1. Create a separate branch for this task.
-2. We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov)
-3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md) [RU] Add command to you package.json file to run linting command.
-4. Add React-Router version 6. Add header which shows the current page. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”.
+2. You have to use Typescript! We recommend using [Vite](https://vitejs.dev/guide/) with the template [*react-ts*](https://vite.new/react-ts). Alternatively you can use CRA with the template *--typescript* (please, take a look at [this comment](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) from Dan Abramov).
+3. Set up eslint and prettier so that the project would not build if there are errors. Use [configs](https://github.com/rolling-scopes-school/tasks/blob/master/react/modules/module01/configs.md). Add command to you package.json file to run linting command.
+4. Add React-Router version 6. Add header which shows the current page name. Additionally, header can contain navigation bar. Also add pages “About Us”, “404”. If user will input unknown route into url – application should redirect to “404”. Page "404" can have no header if you wish.
 5. Draw the following on the main page:
 * Search Bar.\
 examples:\
@@ -44,7 +44,11 @@ The task will be checked during cross-check and cross-code-review.
 2. Install all the required dependencies
 3. Run linting using special command in package.json file, output should not produce any errors or warnings
 4. Run tests using special command in package.json file, all tests should pass, test coverage should be shown after running all the tests
-5. Review the code. Pay attention at the following "code smells": props drilling; large, complex components aka "god" components; direct DOM manipulation, etc.
+5. Review the code. Pay attention at the following "code smells":
+- props drilling;
+- large, complex components aka "god" components;
+- direct DOM manipulation - methods like `appendChild`, `setAttribute`, `innerHTML`, and other - anything that makes React to lose track of the DOM changes. Argument of `createRoot` is an exception;
+- etc.
 
 When reviewing the code try pay attention at the following principles:
 * Write code as simply as possible: KISS
@@ -68,13 +72,14 @@ The score might be less, if:
 2. Test coverage is below 40%.
 3. Presence of the code smells.
 4. Lots of unnessecary, redundant or obvious comments.
+5. The project is not written on Typescript.
 
 
 If there are direct DOM manipulations – **0 points**.
 ### Repository requirements
 
-* the task should be done in the **private student's repository** 
-* in private repository create branch with the name of the task from `main` branch and work in this (dev) created branch
+* the task should be done in **your personal private repository** 
+* in the repository create a branch from the `main` branch with the name of the task and work in the created branch
 * the commits history should reflect the process of app creating [Commits requirements](https://docs.rs.school/#/git-convention?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D0%BA%D0%BE%D0%BC%D0%BC%D0%B8%D1%82%D0%BE%D0%B2) [RU]
 * after finishing development it’s necessary to make Pull Request from app’s branch to `main` branch [Pull Request requirements](https://docs.rs.school/#/pull-request-review-process?id=%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-pull-request-pr) [RU]
 * after completing the module, private repository should be exposed for cross-checks and cross-code-reviews for the duration of the next module (one week), after this week will end, repository should be made private again 
